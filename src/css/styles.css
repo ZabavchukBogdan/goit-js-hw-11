@@ -10,8 +10,7 @@ body {
     background-color: #fafafa;
     color: #212121;
     line-height: 1.5;
-    padding: 0;
-    margin: 0;
+    margin: 0 auto;
     padding-top: 50px;
 }
 
@@ -72,8 +71,10 @@ a {
 
 .gallery {
     display: flex;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    
 }
 
 button {
